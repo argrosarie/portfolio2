@@ -16,7 +16,7 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center  text-center overflow-hidden">
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
@@ -27,21 +27,21 @@ export default function Hero({}: Props) {
         <h2 className="uppercase text-sm text-gray-500 pb-2 tracking-[15px]">
           Software enginieer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-xl lg:text-4xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
         <div className="pt-5">
-          <Link href="#About">
+          <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
-          <Link href="#Experience">
+          <Link href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
-          <Link href="#Skills">
+          <Link href="#skills">
             <button className="heroButton">Skills</button>
           </Link>
-          <Link href="#Projects">
+          <Link href="#projects">
             {" "}
             <button className="heroButton">Projects</button>
           </Link>
