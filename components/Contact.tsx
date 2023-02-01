@@ -1,9 +1,20 @@
 import React from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { useForm, SubmitHandler } from "react-hook-form";
+
+type Inputs = {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+};
 
 type Props = {};
 
 function Contact({}: Props) {
+  const { register, handleSubmit } = useForm<Inputs>();
+  const onSubmit: SubmitHandler<Inputs> = (formData) => console.log(formData);
+
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
@@ -30,14 +41,21 @@ function Contact({}: Props) {
             <p className="text-2xl">Corrientes, Argentina</p>
           </div>
         </div>
-        <form className="flex flex-col space-y-2 w-fit mx-auto">
+        <form
+        onSubmit={handleSubmit(onSubmit)}
+         className="flex flex-col space-y-2 w-fit mx-auto">
           <div className="flex space-x-2">
-            <input placeholder="Name" className="contactInput" type="text" />
-            <input placeholder="Email" className="contactInput" type="email" />
+            <input {...register('name')} placeholder="Name" className="contactInput" type="text" />
+            <input {...register('email')} placeholder="Email" className="contactInput" type="email" />
           </div>
-          <input placeholder="Subject" className="contactInput" type="text" />
-          <textarea placeholder="Message" className="contactInput"  />
-          <button className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg capitalize" type="submit">submit</button>
+          <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />
+          <textarea {...register('message')} placeholder="Message" className="contactInput" />
+          <button
+            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg capitalize"
+            type="submit"
+          >
+            submit
+          </button>
         </form>
       </div>
     </div>
