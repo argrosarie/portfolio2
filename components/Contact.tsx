@@ -25,21 +25,21 @@ function Contact({}: Props) {
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           Lorem ipsum dolor sit, amet{" "}
-          <span className="decoration-[#F7AB0A] underline">
+          <span className="decoration-[#5dc1b9] underline">
             consectetur adipisicing
           </span>
         </h4>
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="h-7 w-7 text-[#F7AB0A] animate-pulse" />
+            <PhoneIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
             <p className="text-2xl">+987654321</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="h-7 w-7 text-[#F7AB0A] animate-pulse" />
+            <EnvelopeIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
             <p className="text-2xl">rosariosanchezsampietro@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="h-7 w-7 text-[#F7AB0A] animate-pulse" />
+            <MapPinIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
             <p className="text-2xl">Corrientes, Argentina</p>
           </div>
         </div>
@@ -53,7 +53,7 @@ function Contact({}: Props) {
           <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />
           <textarea {...register('message')} placeholder="Message" className="contactInput" />
           <button
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg capitalize"
+            className="bg-[#5dc1b9] py-5 px-10 rounded-md text-black font-bold text-lg capitalize"
             type="submit"
           >
             submit
