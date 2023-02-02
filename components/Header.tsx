@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -23,24 +24,27 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center"
       >
-        <SocialIcon
-          url="https://www.linkedin.com/in/rosariosanchezsampietro/"
-          fgColor="grey"
-          bgColor="transparent"
-          target="_blank"
-        />
-        <SocialIcon
-          url="https://www.github.com/argrosarie"
-          fgColor="grey"
-          bgColor="transparent"
-          target="_blank"
-        />
-        <SocialIcon
-          url="https://twitter.com/argrosarie"
-          fgColor="grey"
-          bgColor="transparent"
-          target="_blank"
-        />
+        <div className="pt-5">
+          <Link href="#hero">
+            <button className="heroButton">Home</button>
+          </Link>
+          <Link href="#about">
+            <button className="heroButton">About</button>
+          </Link>
+          <Link href="#experience">
+            <button className="heroButton">Experience</button>
+          </Link>
+          <Link href="#skills">
+            <button className="heroButton">Skills</button>
+          </Link>
+          <Link href="#projects">
+            {" "}
+            <button className="heroButton">Projects</button>
+          </Link>
+          <Link href="#contact">
+            <button className="heroButton">Contact</button>
+          </Link>
+        </div>
       </motion.div>
       <motion.div
         initial={{
