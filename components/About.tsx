@@ -36,15 +36,9 @@ const About = (props: Props) => {
         alt="developer picture"
       />
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">Lorem ipsum dolor sit.</h4>
+        <h4 className="text-4xl font-semibold">The Front-end Force User: Charting My Course in the Tech Galaxy</h4>
         <p className="text-base">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          recusandae magnam tenetur nobis obcaecati dolores reiciendis nisi!
-          Voluptatibus nisi blanditiis velit corporis architecto dolorem id
-          reiciendis, ullam incidunt, quibusdam ea facere nulla optio, veniam
-          repudiandae beatae. Molestiae esse, alias quas minima vitae officiis
-          fuga? Ea officia, omnis error, ut, eum ipsam perspiciatis molestias
-          soluta vero iure alias totam dolore necessitatibus!
+        As a passionate and dedicated front-end developer, I stand out with my ability to work with advanced technologies such as JavaScript, React, and Tailwind. Not only do I have an insatiable thirst for learning, but I also apply each new knowledge I acquire diligently in my daily work. I am a reliable and responsible team player with a strong work ethic and a passion for professional growth. I firmly believe in the importance of sharing knowledge and skills to achieve greater effectiveness and success in teamwork. I am excited to continue growing in my career and to face new challenges in the future.
         </p>
       </div>
     </motion.div>
