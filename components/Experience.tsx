@@ -1,6 +1,9 @@
 import React from "react";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import Muni from "./Experience/Muni";
+import Devlights from "./Experience/Devlights";
+import Freelance from "./Experience/Freelance";
 
 type Props = {};
 
@@ -11,10 +14,9 @@ const Experience = (props: Props) => {
         Experience
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll overflow-y-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20  scrollbar-thumb-[#F7AB0A]/80">
-        <ExperienceCard/>
-        <ExperienceCard/>
-        <ExperienceCard/>
-        <ExperienceCard/>
+        <Devlights />
+        <Muni />
+        <Freelance />
       </div>
     </motion.div>
   );
