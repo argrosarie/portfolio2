@@ -23,17 +23,17 @@ function Contact({}: Props) {
         Contact
       </h3>
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+        {/* <h4 className="text-4xl font-semibold text-center">
           Lorem ipsum dolor sit, amet{" "}
           <span className="decoration-[#5dc1b9] underline">
             consectetur adipisicing
           </span>
-        </h4>
+        </h4> */}
         <div className="space-y-10">
-          <div className="flex items-center space-x-5 justify-center">
+          {/* <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
             <p className="text-2xl">+987654321</p>
-          </div>
+          </div> */}
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
             <p className="text-2xl">rosariosanchezsampietro@gmail.com</p>
