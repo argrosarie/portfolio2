@@ -23,7 +23,7 @@ function Muni({}: Props) {
         }}
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
         src="https://yt3.googleusercontent.com/ytc/AL5GRJX2zr2DtHfl_S-xaOnMUW5R0_h3Gkr9FrHw8ZKKWg=s900-c-k-c0x00ffffff-no-rj"
-        alt="company logo"
+        alt="Municipalidad logo"
       />
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">Frontend Developer</h4>
@@ -32,22 +32,22 @@ function Muni({}: Props) {
           <img
           className="h-10 w-10 rounded-full"
             src="https://cdn.sanity.io/images/ltuexkre/production/df2fb90aec55dc3d8df7544efeb4a476508b0029-500x500.png"
-            alt="technology icon"
+            alt="HTML icon"
           />
                 <img
           className="h-10 w-10 rounded-full"
             src="https://cdn.sanity.io/images/ltuexkre/production/4d05ea180968c83605afe80a2617de5fb71744e2-500x500.png"
-            alt="technology icon"
+            alt="CSS icon"
           />
                 <img
           className="h-10 w-10 rounded-full"
             src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
-            alt="technology icon"
+            alt="react icon"
           />
                     <img
           className="h-10 w-10 rounded-full"
             src="https://cdn.sanity.io/images/ltuexkre/production/da55259f760c8c5606b1cab6e6a9f61bbc60bf0d-500x500.png"
-            alt="technology icon"
+            alt="visual studio code icon"
           />
           
         </div>
