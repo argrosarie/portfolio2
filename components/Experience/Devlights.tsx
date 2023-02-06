@@ -36,15 +36,20 @@ function Devlights({}: Props) {
           />
                 <img
           className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
+            src="https://cdn.sanity.io/images/ltuexkre/production/fa5e6eeb3377a1601e181d0eeb9a60633090cff2-500x500.png"
             alt="technology icon"
           />
                 <img
           className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
+            src="https://cdn.sanity.io/images/ltuexkre/production/28cdc2c56750f218336fa8f3a528b5c6935c8f43-500x500.png"
             alt="technology icon"
           />
-          
+                         <img
+          className="h-10 w-10 rounded-full"
+            src="https://cdn.sanity.io/images/ltuexkre/production/9c1587d869001b2a2e479b5fdf92a4c14d3cfd6f-500x500.png"
+            alt="technology icon"
+          />
+       
         </div>
         <p className="uppercase py-5 text-gray-300">may 2022 Nov 2022</p>
       </div>
