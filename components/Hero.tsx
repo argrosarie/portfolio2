@@ -37,7 +37,7 @@ export default function Hero({}: Props) {
         </h2>
         <h1 className="text-xl lg:text-4xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#F7AB0A" />
+          <Cursor cursorColor="#5dc1b9" />
         </h1>
         <SocialIcon
           url="https://www.linkedin.com/in/rosariosanchezsampietro/"

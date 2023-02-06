@@ -2,7 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import lawyer from "../../public/lawyer.png"
+import lawyer from "../../public/lawyer.png";
+import Link from "next/link";
 
 const Lawyer = () => {
   return (
@@ -25,10 +26,16 @@ const Lawyer = () => {
         src="../../public/Lawyer.png"
         alt=""
       /> */}
-      <Image
-      className="md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[300px] object-contain cursor-pointer"
-      src={lawyer}
-      alt=""/>
+      <Link
+        href="https://estudiojdcofuentesyasociados.web.app/"
+        target="_blank"
+      >
+        <Image
+          className="md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[300px] object-contain cursor-pointer"
+          src={lawyer}
+          alt=""
+        />
+      </Link>
 
       <div className="space-x-10 px-0 md:px-10 max-w-6xl">
         <h4 className="text-4xl font-semibold text-center">
