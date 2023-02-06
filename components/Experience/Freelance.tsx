@@ -34,14 +34,21 @@ function Freelance({}: Props) {
             src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
             alt="technology icon"
           />
-                <img
+                       <img
           className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
+            src="https://cdn.sanity.io/images/ltuexkre/production/ec85d60e35ac7570017f90d93c1cfd7bf1e77bcb-2048x2048.png"
             alt="technology icon"
           />
+
+
                 <img
           className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
+            src="https://cdn.sanity.io/images/ltuexkre/production/2a67945990f9c2ef568cf7e8483c1a8174556463-500x500.png"
+            alt="technology icon"
+          />
+               <img
+          className="h-10 w-10 rounded-full"
+            src="https://cdn.sanity.io/images/ltuexkre/production/5ca925937ccd56e069dd6f7cf8c5c7853542603f-500x500.png"
             alt="technology icon"
           />
           
