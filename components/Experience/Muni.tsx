@@ -31,7 +31,12 @@ function Muni({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
           className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
+            src="https://cdn.sanity.io/images/ltuexkre/production/df2fb90aec55dc3d8df7544efeb4a476508b0029-500x500.png"
+            alt="technology icon"
+          />
+                <img
+          className="h-10 w-10 rounded-full"
+            src="https://cdn.sanity.io/images/ltuexkre/production/4d05ea180968c83605afe80a2617de5fb71744e2-500x500.png"
             alt="technology icon"
           />
                 <img
@@ -39,9 +44,9 @@ function Muni({}: Props) {
             src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
             alt="technology icon"
           />
-                <img
+                    <img
           className="h-10 w-10 rounded-full"
-            src="https://cdn.sanity.io/images/ltuexkre/production/b54b0a9525e943809d5cfd9b1549b9f7d3b8858f-500x500.png"
+            src="https://cdn.sanity.io/images/ltuexkre/production/da55259f760c8c5606b1cab6e6a9f61bbc60bf0d-500x500.png"
             alt="technology icon"
           />
           
