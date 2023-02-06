@@ -22,7 +22,7 @@ function Muni({}: Props) {
           once: true,
         }}
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src="https://avatars.githubusercontent.com/u/51086021?v=4"
+        src="https://yt3.googleusercontent.com/ytc/AL5GRJX2zr2DtHfl_S-xaOnMUW5R0_h3Gkr9FrHw8ZKKWg=s900-c-k-c0x00ffffff-no-rj"
         alt="company logo"
       />
       <div className="px-0 md:px-10">

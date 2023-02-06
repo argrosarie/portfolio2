@@ -22,7 +22,7 @@ function Devlights({}: Props) {
           once: true,
         }}
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src="https://avatars.githubusercontent.com/u/51086021?v=4"
+        src="https://scontent.fres2-1.fna.fbcdn.net/v/t39.30808-6/305649462_617242033430382_7992808437628498308_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WNjiwUu_VKsAX890SAk&_nc_ht=scontent.fres2-1.fna&oh=00_AfDF1Q_3XT7nIPb3e_PHkkIm-PGtOCFr6tvBQyOQLxa3SA&oe=63E6D481"
         alt="company logo"
       />
       <div className="px-0 md:px-10">
