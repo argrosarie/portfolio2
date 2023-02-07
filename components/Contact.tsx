@@ -14,8 +14,8 @@ type Props = {};
 function Contact({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:rosariosanchezsampietro@gmail.com?subject=${formData.subject}&body=${formData.message}`
-  }
+    window.location.href = `mailto:rosariosanchezsampietro@gmail.com?subject=${formData.subject}&body=${formData.message}`;
+  };
 
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
@@ -44,16 +44,36 @@ function Contact({}: Props) {
           </div>
         </div>
         <form
-        onSubmit={handleSubmit(onSubmit)}
-         className="flex flex-col space-y-2 w-fit mx-auto">
+          onSubmit={handleSubmit(onSubmit)}
+          className="flex flex-col space-y-2 w-fit mx-auto"
+        >
           <div className="flex space-x-2">
-            <input {...register('name')} placeholder="Name" className="contactInput" type="text" />
-            <input {...register('email')} placeholder="Email" className="contactInput" type="email" />
+            <input
+              {...register("name")}
+              placeholder="Name"
+              className="contactInput"
+              type="text"
+            />
+            <input
+              {...register("email")}
+              placeholder="Email"
+              className="contactInput"
+              type="email"
+            />
           </div>
-          <input {...register('subject')} placeholder="Subject" className="contactInput" type="text" />
-          <textarea {...register('message')} placeholder="Message" className="contactInput" />
+          <input
+            {...register("subject")}
+            placeholder="Subject"
+            className="contactInput"
+            type="text"
+          />
+          <textarea
+            {...register("message")}
+            placeholder="Message"
+            className="contactInput"
+          />
           <button
-            className="bg-[#5dc1b9] py-5 px-10 rounded-md text-black font-bold text-lg capitalize"
+            className="bg-[#5dc1b9] py-5 px-10 rounded-md text-[#363636] font-bold text-lg capitalize"
             type="submit"
           >
             submit

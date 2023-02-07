@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import bgindustrial from "../public/bgindustrial.png";
 import { SocialIcon } from "react-social-icons";
-import SplineTest from "./Test.js"
+import SplineTest from "./Test.js";
 type Props = {};
 
 export default function Hero({}: Props) {
@@ -20,27 +20,27 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div className="relative h-screen flex flex-col md:flex-row space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className=" h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       {/* <BackgroundCircles /> */}
-      {/* <Image
+      <Image
         src={bgindustrial}
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         alt="face"
-      /> */}
+      />
       {/* <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="https://avatars.githubusercontent.com/u/51086021?v=4"
         alt=""
       /> */}
+
       <div className="z-20">
-       
-        <h1 className="text-xl lg:text-4xl font-semibold px-10">
-          <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#E04D7B" />
-        </h1>
-        <h2 className="uppercase text-sm font-bold text-gray-500 pb-2 tracking-[15px]">
+        <h2 className="uppercase text-sm  text-gray-500 pb-2 tracking-[15px]">
           Software developer
         </h2>
+        <h1 className="text-xl lg:text-4xl font-semibold px-10">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#5dc1b9" />
+        </h1>
         <SocialIcon
           url="https://www.linkedin.com/in/rosariosanchezsampietro/"
           fgColor="grey"
@@ -60,9 +60,11 @@ export default function Hero({}: Props) {
           target="_blank"
         />
       </div>
-      <section className="absolute w-screen left-0 h-[500px]">
+
+      {/* <section className="
+      absolute w-screen left-0 h-[500px]">
       <SplineTest />
-      </section>
+      </section> */}
     </div>
   );
 }
