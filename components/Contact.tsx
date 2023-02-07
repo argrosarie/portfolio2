@@ -18,8 +18,8 @@ function Contact({}: Props) {
   };
 
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+    <div className="h-screen flex  flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center ">
+      <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl md:-ml-40">
         Contact
       </h3>
       <div className="flex flex-col space-y-10">
@@ -40,7 +40,7 @@ function Contact({}: Props) {
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
-            <p className="text-2xl">Corrientes, Argentina</p>
+            <p className="text-2xl">Argentina</p>
           </div>
         </div>
         <form

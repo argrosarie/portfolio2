@@ -51,9 +51,9 @@ export default function Header({}: Props) {
             {" "}
             <button className="heroButton">Projects</button>
           </Link>
-          <Link href="#skills">
+          {/* <Link href="#skills">
             <button className="heroButton">Skills</button>
-          </Link>
+          </Link> */}
           <Link href="#contact">
             <button className="heroButton">Contact</button>
           </Link>
