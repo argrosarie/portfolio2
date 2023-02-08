@@ -25,13 +25,13 @@ function Projects({}: Props) {
       <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl md:ml-16">
         Projects
       </h3>
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20  scrollbar-thumb-[#E04D7B]/80">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20  scrollbar-thumb-[#5dc1b9]/80">
         <Lawyer />
         <OldPortfolio />
         {/* <Capybara/>
         <LinkdinClone /> */}
       </div>
-      <div className="w-full absolute top-[30%] bg-[#E04D7B]/10 left-0 h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[30%] bg-[#5dc1b9]/10 left-0 h-[500px] -skew-y-12" />
     </motion.div>
   );
 }

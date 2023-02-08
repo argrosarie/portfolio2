@@ -19,8 +19,8 @@ export default function Hero({}: Props) {
     loop: true,
     delaySpeed: 2000,
   });
-  return ( 
-    <div className=" h-screen flex flex-col items-center justify-center space-y-8  text-center overflow-hidden">
+  return (
+    <div className=" h-screen flex flex-col items-center justify-start md:mt-20   lg:mt-24 space-y-8  text-center overflow-hidden">
       {/* <BackgroundCircles /> */}
       <Image
         src={bgindustrial}
