@@ -51,7 +51,7 @@ function Muni({}: Props) {
           />
           
         </div>
-        <p className="uppercase py-5 text-gray-300">May 2021 September 2021</p>
+        
       </div>
       <ul className="list-disc space-y-4 ml-5 text-lg">
         <li>Development of web application using React, JavaScript and Material UI</li>

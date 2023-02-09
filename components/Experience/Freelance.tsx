@@ -53,7 +53,7 @@ function Freelance({}: Props) {
           />
           
         </div>
-        <p className="uppercase py-5 text-gray-300">August 2020 June 2022</p>
+        
       </div>
       <ul className="list-disc space-y-4 ml-5 text-lg">
         <li>Understanding client requirements and translating them into technical specifications</li>

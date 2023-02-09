@@ -15,20 +15,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className=" bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20  scrollbar-thumb-[#5dc1b9]/80">
+    <div className=" bg-[rgb(36,36,36)] text-white h-screen  snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20  scrollbar-thumb-[#5dc1b9]/80">
       <Head>
         <title>Rosario's portfolio</title>
         <link rel="shortcut icon" href="../public/favicon.ico" />
       </Head>
       <Header />
-      <section id="hero" className="">
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
-      <section id="about" className="snap-center">
+      <section id="about" className="snap-start">
         <About />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience" className="snap-start">
         <Experience />
       </section>
       <section id="projects" className="snap-start">
