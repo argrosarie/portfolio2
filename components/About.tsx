@@ -7,7 +7,7 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div className="flex flex-col space-y-10 md:h-screen text-center md:pt-10 lg:text-left lg:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center lg:ml-10">
+    <div className="flex flex-col space-y-4 md:h-screen text-center md:pt-10 lg:text-left lg:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center lg:ml-10">
       <div className="pt-20">
         <h3 className=" uppercase tracking-[20px] text-gray-500 text-2xl ">
           About
@@ -19,11 +19,11 @@ const About = (props: Props) => {
         alt="profile pic"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px]"
       />
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
-          The Front-end Force User: Charting My Course in the Tech Galaxy
+      <div className="space-y-4 px-0 md:px-10">
+        <h4 className="text-2xl lg:text-4xl font-semibold text-justify">
+          The Front-end Force User:<br/> Charting My Course in the Tech Galaxy
         </h4>
-        <p className="text-base">
+        <p className="text-base leading-relaxed text-justify pb-4">
           As a passionate and dedicated front-end developer, I stand out with my
           ability to work with advanced technologies such as JavaScript, React,
           and Tailwind. Not only do I have an insatiable thirst for learning,

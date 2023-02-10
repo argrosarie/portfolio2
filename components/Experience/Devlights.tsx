@@ -5,7 +5,7 @@ type Props = {};
 
 function Devlights({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[700px] p-10 my-6 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -21,13 +21,13 @@ function Devlights({}: Props) {
         viewport={{
           once: true,
         }}
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
+        className="w-24 h-24 rounded-full md:w-[100px] md:h-[100px] object-cover object-center"
         src="https://scontent.fres2-1.fna.fbcdn.net/v/t39.30808-6/305649462_617242033430382_7992808437628498308_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WNjiwUu_VKsAX890SAk&_nc_ht=scontent.fres2-1.fna&oh=00_AfDF1Q_3XT7nIPb3e_PHkkIm-PGtOCFr6tvBQyOQLxa3SA&oe=63E6D481"
         alt="devlights logo"
       />
-      <div className="px-0 md:px-10">
-        <h4 className="text-4xl font-light">Full Stack Developer</h4>
-        <p className="font-bold text-2xl mt-1">Devlights </p>
+      <div className="px-0 md:px-10 flex flex-col items-center">
+        <h4 className="text-2xl md:text-4xl font-light">Full Stack Developer</h4>
+        <p className="font-bold text-xl md:text-2xl mt-1">Devlights </p>
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
@@ -51,7 +51,7 @@ function Devlights({}: Props) {
           />
         </div>
       </div>
-      <ul className="list-disc space-y-4 ml-5 text-lg">
+      <ul className="list-disc space-y-2 ml-5 text-lg">
         <li>
           Development and maintenance of web applications using technologies
           such as HTML, CSS, JavaScript and React.
