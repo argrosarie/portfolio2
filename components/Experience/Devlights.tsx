@@ -5,7 +5,7 @@ type Props = {};
 
 function Devlights({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[700px] p-10 my-6 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="h-max md:pb-10 flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[260px] md:w-[700px] px-4 py-6 my-6 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 ">
       <motion.img
         initial={{
           y: -100,
@@ -26,7 +26,7 @@ function Devlights({}: Props) {
         alt="devlights logo"
       />
       <div className="px-0 md:px-10 flex flex-col items-center">
-        <h4 className="text-2xl md:text-4xl font-light">Full Stack Developer</h4>
+        <h4 className="text-2xl md:text-4xl font-light text-center">Full Stack Developer</h4>
         <p className="font-bold text-xl md:text-2xl mt-1">Devlights </p>
         <div className="flex space-x-2 my-2">
           <img
