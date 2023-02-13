@@ -5,7 +5,7 @@ type Props = {};
  
 function Freelance({}: Props) {
   return (
-    <article className="h-max md:pb-10 flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[260px] md:w-[700px] px-4 py-6 my-4  bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="h-max md:pb-10 flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[260px] md:w-[700px] px-4 py-6  bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -55,7 +55,7 @@ function Freelance({}: Props) {
         </div>
         
       </div>
-      <ul className="list-disc space-y-2 ml-5 text-lg">
+      <ul className="list-disc space-y-2 ml-5 text-lg text-start">
         <li>Understanding client requirements and translating them into technical specifications</li>
         <li>Keeping up-to-date with latest front-end technologies, tools and best practices</li>
         <li>Communicating with clients, providing regular updates, and ensuring their satisfaction with the work</li>

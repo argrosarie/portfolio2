@@ -7,52 +7,27 @@ import Link from "next/link";
 
 const Lawyer = () => {
   return (
-    <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-      {/* <motion.img
-        initial={{
-          y: -300,
-          opacity: 0,
-        }}
-        transition={{
-          duration: 1.2,
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        viewport={{
-          once: true,
-        }}
-        src="../../public/Lawyer.png"
-        alt=""
-      /> */}
+    // <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+      <div className="h-max md:pb-10 flex flex-col  items-center space-y-6 flex-shrink-0 w-[260px] md:w-[700px] px-4 py-6 my-6 ">
+    
       <Link
         href="https://estudiojdcofuentesyasociados.web.app/"
         target="_blank"
       >
         <Image
-          className="md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[300px] object-contain cursor-pointer"
+          className="md:mb-0  w-36 h-36 rounded md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[300px] object-contain cursor-pointer"
           src={lawyer}
-          alt=""
+          alt="site' screenshot"
         />
       </Link>
 
-      <div className="space-x-10 px-0 md:px-10 max-w-6xl">
-        <h4 className="text-4xl font-semibold text-center">
+      <div className="space-x-10 space-y-6 px-0 md:px-10 max-w-6xl">
+        <h4 className="text-2xl md:text-4xl font-semibold text-center">
           <span className="underline decoration-[#5dc1b9]/50"> Landing</span>{" "}
           Page
         </h4>
-        <p className="text-lg text-center md:text-left">
-          This landing page is a website designed to showcase information about
-          a client and their personal brand. The page serves as a platform to
-          highlight the client's unique skills, achievements, and experiences,
-          allowing them to effectively communicate their value proposition to
-          potential clients, partners, or employers. The landing page may
-          include information such as the client's background, areas of
-          expertise, portfolio of work, testimonials, and contact information.
-          The goal of the landing page is to build trust, establish credibility,
-          and promote the client's personal brand in a professional and
-          effective manner.
+        <p className="text-lg text-start">
+        Landing page highlights client's personal brand, skills, achievements, and experiences. Builds trust, establishes credibility, and communicates value proposition to potential clients, partners, or employers. Includes background, expertise, and contact info
         </p>
       </div>
     </div>

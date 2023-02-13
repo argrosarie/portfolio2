@@ -18,8 +18,8 @@ function Contact({}: Props) {
   };
 
   return (
-    <div className="h-screen flex  flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center ">
-      <h3 className="uppercase tracking-[20px] text-gray-500 text-2xl md:-ml-40">
+    <div className="h-screen flex  flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center pt-20">
+      <h3 className="uppercase tracking-[18px] text-gray-500 text-2xl md:-ml-40">
         Contact
       </h3>
       <div className="flex flex-col space-y-10">

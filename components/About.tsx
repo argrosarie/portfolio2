@@ -7,12 +7,10 @@ type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div className="flex flex-col space-y-4 md:h-screen text-center md:pt-10 lg:text-left lg:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center lg:ml-10">
-      <div className="pt-20">
-        <h3 className=" uppercase tracking-[20px] text-gray-500 text-2xl ">
-          About
-        </h3>
-      </div>
+    <div className="flex flex-col space-y-4 md:h-screen text-center md:pt-10 lg:text-left lg:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center lg:ml-10 pt-20">
+      <h3 className=" uppercase tracking-[10px] text-gray-500 text-2xl ">
+        About
+      </h3>
 
       <Image
         src={profile}
@@ -21,7 +19,8 @@ const About = (props: Props) => {
       />
       <div className="space-y-4 px-0 md:px-10">
         <h4 className="text-2xl lg:text-4xl font-semibold text-justify">
-          The Front-end Force User:<br/> Charting My Course in the Tech Galaxy
+          The Front-end Force User:
+          <br /> Charting My Course in the Tech Galaxy
         </h4>
         <p className="text-base leading-relaxed text-justify pb-4">
           As a passionate and dedicated front-end developer, I stand out with my

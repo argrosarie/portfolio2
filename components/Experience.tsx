@@ -9,11 +9,12 @@ type Props = {};
 
 const Experience = (props: Props) => {
   return (
-    <div className="h-screen flex mt-10 flex-col text-left md:flex-row max-w-full  justify-evenly mx-auto items-center md:ml-10">
-      <h3 className="uppercase tracking-[20px]  text-gray-500 text-lg md:text-2xl">
+    <div className="flex flex-col space-y-4 md:h-screen text-center lg:text-left lg:flex-row max-w-7xl justify-evenly  items-center lg:ml-10 pt-20 md:pt-[5px]">
+      <h3 className="uppercase tracking-[18px]  text-gray-500 text-2xl md:text-2xl">
         Experience
       </h3>
-      <div className="w-full flex flex-row space-x-5 overflow-x-scroll overflow-y-scroll p-10  md:scrollbar-thin md:scrollbar-track-gray-400/20  md:scrollbar-thumb-[#5dc1b9]/80 lg:pt-48">
+
+      <div className="w-full flex flex-row space-x-5 overflow-x-scroll overflow-y-scroll pb-10 md:scrollbar-thin md:scrollbar-track-gray-400/20  md:scrollbar-thumb-[#5dc1b9]/80 lg:pt-48 ">
         <Devlights />
         <Freelance />
         <Muni />
