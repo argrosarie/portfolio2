@@ -1,12 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
+import devlights from "../../public/devlights.png"
+import Image from "next/image";
 
 type Props = {};
 
 function Devlights({}: Props) {
   return (
     <article className="h-max md:pb-10 flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[260px] md:w-[800px] px-4 py-6  bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200">
-      <motion.img
+      {/* <motion.img
         initial={{
           y: -100,
           opacity: 0,
@@ -22,9 +24,12 @@ function Devlights({}: Props) {
           once: true,
         }}
         className="w-24 h-24 rounded-full md:w-[100px] md:h-[100px] object-cover object-center"
-        src="https://scontent.fres2-1.fna.fbcdn.net/v/t39.30808-6/305649462_617242033430382_7992808437628498308_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=WNjiwUu_VKsAX890SAk&_nc_ht=scontent.fres2-1.fna&oh=00_AfDF1Q_3XT7nIPb3e_PHkkIm-PGtOCFr6tvBQyOQLxa3SA&oe=63E6D481"
+        src="../../public/devlights.png"
         alt="devlights logo"
-      />
+      /> */}
+      <Image
+      className="w-24 h-24 rounded-full md:w-[100px] md:h-[100px] object-cover object-center"
+      src={devlights}/>
       <div className="px-0 md:px-10 flex flex-col items-center">
         <h4 className="text-2xl md:text-4xl font-light text-center">Full Stack Developer</h4>
         <p className="font-bold text-xl md:text-2xl mt-1">Devlights </p>
