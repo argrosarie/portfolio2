@@ -18,49 +18,41 @@ function Contact({}: Props) {
   };
 
   return (
-    <div className="h-screen flex  flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center pt-20">
+    <div className="h-screen flex  flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center pt-10">
       <h3 className="uppercase tracking-[18px] text-gray-500 text-2xl md:-ml-40">
         Contact
       </h3>
-      <div className="flex flex-col space-y-10">
-        {/* <h4 className="text-4xl font-semibold text-center">
-          Lorem ipsum dolor sit, amet{" "}
-          <span className="decoration-[#5dc1b9] underline">
-            consectetur adipisicing
-          </span>
-        </h4> */}
-        <div className="space-y-10">
-          {/* <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
-            <p className="text-2xl">+987654321</p>
-          </div> */}
-          <div className="flex items-center space-x-5 justify-center">
+      <div className="flex flex-col items-center space-y-10">
+    
+        <div className="space-y-10 pr-4">
+      
+          <div className="flex flex-col md:flex-row items-center space-x-5 justify-center ">
             <EnvelopeIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
-            <p className="text-2xl">rosariosanchezsampietro@gmail.com</p>
+            <p className="text-md md:text-2xl">rosariosanchezsampietro@gmail.com</p>
           </div>
-          <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="h-7 w-7 text-[#5dc1b9] animate-pulse" />
-            <p className="text-2xl">Argentina</p>
+          <div className="flex flex-col md:flex-row items-center space-x-5 justify-center pr-2">
+            <MapPinIcon className="ml-3 md:ml-0 h-7 w-7 text-[#5dc1b9] animate-pulse" />
+            <p className="text-md md:text-2xl">Argentina</p>
           </div>
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 w-fit mx-auto md:w-[500px]"
         >
-          <div className="flex space-x-2">
+          {/* <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 mr-2 md:mr-0 space-x-2 "> */}
             <input
               {...register("name")}
               placeholder="Name"
-              className="contactInput"
+              className="contactInput "
               type="text"
             />
             <input
               {...register("email")}
               placeholder="Email"
-              className="contactInput"
+              className="contactInput "
               type="email"
             />
-          </div>
+          {/* </div> */}
           <input
             {...register("subject")}
             placeholder="Subject"
