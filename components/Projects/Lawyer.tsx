@@ -27,7 +27,7 @@ const Lawyer = () => {
           Page
         </h4>
         <p className="text-lg text-start">
-        Landing page highlights client's personal brand, skills, achievements, and experiences. Builds trust, establishes credibility, and communicates value proposition to potential clients, partners, or employers. Includes background, expertise, and contact info
+        Landing page highlights clients personal brand, skills, achievements, and experiences. Builds trust, establishes credibility, and communicates value proposition to potential clients, partners, or employers. Includes background, expertise, and contact info.
         </p>
       </div>
     </div>

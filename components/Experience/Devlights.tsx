@@ -28,6 +28,7 @@ function Devlights({}: Props) {
         alt="devlights logo"
       /> */}
       <Image
+      alt="devlights logo"
       className="w-24 h-24 rounded-full md:w-[100px] md:h-[100px] object-cover object-center"
       src={devlights}/>
       <div className="px-0 md:px-10 flex flex-col items-center">

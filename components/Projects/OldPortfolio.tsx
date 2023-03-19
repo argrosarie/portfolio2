@@ -20,7 +20,7 @@ const OldPortfolio = () => {
         />
       </Link>
 
-      <div className="space-x-10 space-y-6 px-0 md:px-10 ">
+      <div className="space-x-10 space-y-6 px-0 md:px-10">
         <h4 className="text-2xl md:text-4xl font-semibold text-center">
           Old{" "}
           <span className="underline decoration-[#5dc1b9]/50"> Portfolio</span>
