@@ -4,6 +4,7 @@ import ExperienceCard from "./ExperienceCard";
 import Muni from "./Experience/Muni";
 import Devlights from "./Experience/Devlights";
 import Freelance from "./Experience/Freelance";
+import Desnea from "./Experience/Desnea";
 
 type Props = {};
 
@@ -15,6 +16,7 @@ const Experience = (props: Props) => {
       </h3>
 
       <div className="w-full flex flex-row space-x-5 overflow-x-scroll overflow-y-scroll pb-10 md:scrollbar-thin md:scrollbar-track-gray-400/20  md:scrollbar-thumb-[#5dc1b9]/80 lg:pt-48 ">
+        <Desnea />
         <Devlights />
         <Freelance />
         <Muni />
