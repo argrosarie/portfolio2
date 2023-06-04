@@ -4,6 +4,7 @@ import Capybara from "./Projects/Capybara";
 import Lawyer from "./Projects/Lawyer";
 import LinkdinClone from "./Projects/LinkdinClone";
 import OldPortfolio from "./Projects/OldPortfolio";
+import Ceramix from "./Projects/Ceramix";
 
 type Props = {};
 
@@ -16,6 +17,7 @@ function Projects({}: Props) {
       </h3>
 
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden  z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#5dc1b9]/80 ml-10">
+        <Ceramix />
         <Capybara />
         <OldPortfolio />
         <Lawyer />
