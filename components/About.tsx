@@ -24,14 +24,15 @@ const About = (props: Props) => {
         </h4>
         <p className="text-base leading-relaxed text-justify pb-4">
           As a passionate and dedicated front-end developer, I stand out with my
-          ability to work with advanced technologies such as JavaScript, React,
-          and Tailwind. Not only do I have an insatiable thirst for learning,
-          but I also apply each new knowledge I acquire diligently in my daily
-          work. I am a reliable and responsible team player with a strong work
-          ethic and a passion for professional growth. I firmly believe in the
-          importance of sharing knowledge and skills to achieve greater
-          effectiveness and success in teamwork. I am excited to continue
-          growing in my career and to face new challenges in the future.
+          ability to work with advanced technologies such as Next, JavaScript,
+          React, and Tailwind. Not only do I have an insatiable thirst for
+          learning, but I also apply each new knowledge I acquire diligently in
+          my daily work. I am a reliable and responsible team player with a
+          strong work ethic and a passion for professional growth. I firmly
+          believe in the importance of sharing knowledge and skills to achieve
+          greater effectiveness and success in teamwork. I am excited to
+          continue growing in my career and to face new challenges in the
+          future.
         </p>
       </div>
     </div>

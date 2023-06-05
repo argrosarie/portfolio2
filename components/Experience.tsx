@@ -15,7 +15,7 @@ const Experience = (props: Props) => {
         Experience
       </h3>
 
-      <div className="w-full flex flex-row space-x-5 overflow-x-scroll overflow-y-scroll pb-10 md:scrollbar-thin md:scrollbar-track-gray-400/20  md:scrollbar-thumb-[#5dc1b9]/80 lg:pt-48 ">
+      <div className="w-full flex flex-row space-x-5 overflow-x-scroll overflow-y-scroll pb-10 md:scrollbar-thin md:scrollbar-track-gray-400/20  md:scrollbar-thumb-[#5dc1b9]/80 md:pt-10">
         <Desnea />
         <Devlights />
         <Freelance />

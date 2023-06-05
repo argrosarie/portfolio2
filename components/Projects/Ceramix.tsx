@@ -2,7 +2,7 @@ import Image from "next/image";
 import ceramix from "../../public/ceramix.png";
 import Link from "next/link";
 
-const Lawyer = () => {
+const Ceramix = () => {
   return (
     // <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
     <div className="h-max md:pb-10 flex flex-col  items-center space-y-6 flex-shrink-0 w-[260px] md:w-[700px] px-4 py-6 my-6 ">
@@ -31,4 +31,4 @@ const Lawyer = () => {
   );
 };
 
-export default Lawyer;
+export default Ceramix;

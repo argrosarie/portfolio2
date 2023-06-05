@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Footer({}: Props) {
   return (
-    <div className="grid justify-items-center pb-8">
+    <div className="grid justify-items-center pb-8 pt-8">
       <div>
         <SocialIcon
           url="https://www.linkedin.com/in/rosariosanchezsampietro/"

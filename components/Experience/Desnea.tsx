@@ -7,7 +7,7 @@ type Props = {};
 
 function Desnea({}: Props) {
   return (
-    <article className="h-max md:pb-10 flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[260px] md:w-[800px] px-4 py-6  bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200">
+    <article className="h-max md:pb-10 flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[260px] md:w-[800px] px-4 py-6  bg-[#292929] cursor-pointer transition-opacity duration-200">
       {/* <motion.img
         initial={{
           y: -100,
